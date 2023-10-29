@@ -1,0 +1,59 @@
+
+
+/* Navbar items */
+
+.nav_items{
+    @apply md:ml-[48px] font-normal font-pop hover:border-b-[1px] hover:border-b-black duration-500
+}
+
+/* Navbar Input Box */
+
+.nav_inputBox{
+    @apply bg-[#F5F5F5] rounded-[4px] md:w-[243px] py-[7px] pl-[20px] font-pop text-[12px] font-normal leading-[18px] outline-none
+}
+
+/* Navbar love,cart and user items with hover*/
+
+.nav_elements{
+    @apply ml-[16px] hover:border-b-[1px] hover:border-b-black duration-500 cursor-pointer select-none
+}
+
+
+/* Flex with center */
+.flex_center{
+    @apply flex justify-center items-center
+}
+
+/* Flex with between */
+.flex_between{
+    @apply flex justify-between items-center
+}
+
+/* Text/Font/Line-height */
+.text_detail{
+    @apply font-pop text-[12px] font-normal leading-[18px]
+}
+.text_detail2{
+    @apply font-pop font-medium text-[16px] leading-[24px]
+}
+.text_detail3{
+    @apply font-pop font-normal text-[16px] leading-[24px]
+}
+.text_detail4{
+    @apply font-pop font-normal text-[14px] leading-[21px]
+}
+
+/* Wishlist Button and hover */
+
+.btn{
+    @apply rounded-[4px] border-[#00000080] border-[1px] hover:bg-button text-black hover:text-white hover:border-button duration-300 text-center
+}
+.btn2{
+    @apply bg-button hover:bg-hover1 rounded-[4px] border-[1px] border-button hover:border-hover1 text-center duration-300
+}
+
+
+/* Cart (Quantity Arrow Button) */
+.arrows{
+    @apply cursor-pointer hover:text-white hover:bg-black hover:rounded-full
+}
